@@ -44,12 +44,13 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col1:
     st.image(os.path.join("images", "logo.png"))
 
-st.write("# Chat with your data Solution Accelerator")
+st.write("# Chatting Sie mit Ihren eigenen Daten.")
 
 st.write(
     """
-         * If you want to ingest data (pdf, websites, etc.), then use the `Ingest Data` tab
-         * If you want to explore how your data was chunked, check the `Explore Data` tab
-         * If you want to adapt the underlying prompts, logging settings and others, use the `Configuration` tab
+         * Verwenden Sie den Tab `Daten hochladen`, wenn Sie neue Daten (PDFs, Websites usw.) aufnehmen möchten.
+         * Mit `Daten erkunden` erfahren Sie, wie Ihre Daten segmentiert wurden.
+         * Klicken Sie auf `Daten löschen` und diese werden gelöscht.
+         * Nutzen Sie den Tab `Konfiguration`, um die zugrundeliegenden Eingabeaufforderungen, Protokollierungseinstellungen und andere Details anzupassen.
          """
 )
